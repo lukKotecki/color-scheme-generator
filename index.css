@@ -1,5 +1,54 @@
 html, body{
     margin:0;
     padding:0;
+    font-family: 'Inter', sans-serif;
 }
 
+.container{
+    width: 550px;
+    margin: 40px auto;
+    background-color: #eee;
+}
+
+header{
+    height:90px;
+    display: flex;
+    align-items: center;
+}
+
+header form{
+    display: flex;
+    width: 100%;
+}
+
+form input{
+    width: 82px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+form select{
+    display: block;
+    border-radius: 5px;
+    border-color: #ddd;
+    width: 100%;
+}
+
+form button{
+    margin: 0 10px;
+    width: 170px;
+    font-size: 12px;
+}
+
+.color-samples{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.color-sample{
+    width: auto;
+    background-color: aqua;
+    height:200px
+}
