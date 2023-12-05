@@ -41,14 +41,20 @@ form button{
     font-size: 12px;
 }
 
-.color-samples{
+.color-samples-container{
     display: flex;
-    justify-content: space-evenly;
-
 }
 
 .color-sample{
-    width: auto;
+    width: 100%;
+}
+.color-preview{
     background-color: aqua;
-    height:200px
+    height:400px
+}
+
+.color-code{
+    text-align: center;
+    padding: 1em 0;
+
 }
